@@ -1,0 +1,9 @@
+# Public repo: README and a few screenshots only. The code stays on this computer.
+/*
+!/README.md
+!/.gitignore
+!/docs/
+/docs/*
+!/docs/operations.png
+!/docs/flow-threats.png
+!/docs/flow-integrity.png
