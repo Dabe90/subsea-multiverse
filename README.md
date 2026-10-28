@@ -6,6 +6,14 @@ Every feature is scored against a naive baseline on cases built to fool it. Phys
 
 ![Operations view](docs/operations.png)
 
+## Try it
+
+**[Explore the dashboard](https://subsea-multiverse.netlify.app/)** to click through the scenarios, alerts, evaluation and agent. Everything in it is synthetic, with known answer keys.
+
+**[Run the hydrate check](https://hydrate-check.onrender.com)** to upload a well's pressure and temperature history and get a plain-language verdict. On real Petrobras 3W wells (CC BY 4.0) it flagged 5 of 5 usable hydrate events and raised 0 false alarms in 4,680 h of normal and other-event data.
+
+The hydrate check can take a minute to wake on the first visit. The two pages link to each other.
+
 ## Results
 
 All scenarios are synthetic with known answer keys (see [Limits](#limits)).
